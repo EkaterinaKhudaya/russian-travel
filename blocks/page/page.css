@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter_Web/Inter-Regular.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter_Web/Inter-Bold.woff);
+    font-weight: bold;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2A2C2F;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,12 @@
+.place__link {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    justify-self: end;
+    align-self: start;
+}
+
+.place__link:hover{
+    cursor: pointer;
+}
