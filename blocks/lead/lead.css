@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1024px) {
     .lead {
         margin: 0 48px 92px 48px;
     }
