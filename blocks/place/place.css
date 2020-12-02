@@ -8,11 +8,13 @@
     grid-template-columns: repeat(2, minmax(min-content, calc((100% / 2) - 30px)));
     gap: 48px 40px;
     max-width: 984px;
-
 }
 
 .place:first-of-type {
     margin-top: 92px;
+}
+.place:last-of-type {
+    margin-top: 89px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,6 +23,10 @@
         margin: 0 48px 80px;
         gap: 48px 32px;
         max-width: 928px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 92px;
     }
 
 }
@@ -32,8 +38,13 @@
         gap: 48px 28px;
         max-width: 720px;
     }
+
     .place:first-of-type {
         margin-top: 88px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 90px;
     }
 }
 
@@ -43,13 +54,18 @@
             "title "
             "image"
             "place__text";
-        gap: 32px;
+        gap: 34px;
         grid-template-columns: 100%;
-        margin: 0 16px 49px 16px;
+        margin: 0 0 49px;
         max-width: 320px;
     }
+
     .place:first-of-type {
         margin-top: 44px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 66px;
     }
 
 }
