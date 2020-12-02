@@ -3,6 +3,8 @@
     width: 100%;
     background-position: center;
     max-width: 460px;
+    object-fit: fill;
+    object-position: center;
 }
 
 
@@ -21,7 +23,6 @@
 
 @media screen and (max-width: 320px) {
     .place__image {
-        max-width: 320px;
-        object-fit: fill;
+        min-width: 100%;
     }
 }
