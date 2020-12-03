@@ -33,9 +33,3 @@
         max-height: 62.5vw;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .cover {
-        min-height: 62.5vw;
-    }
-}
