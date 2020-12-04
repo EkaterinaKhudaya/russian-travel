@@ -2,13 +2,15 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     max-width: 100%;
-    max-height: 60.8vw;
+    min-height: 58vw;
     margin: 0 48px;
 }
 
@@ -30,6 +32,6 @@
 @media screen and (max-width: 1024px) {
     .cover {
         margin: 0;
-        max-height: 62.5vw;
+        min-height: 62.5vw;
     }
 }

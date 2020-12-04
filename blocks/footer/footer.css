@@ -1,5 +1,4 @@
 .footer{
-    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     margin: 88px 48px 24px;
@@ -20,17 +19,10 @@
     }
 }
 
-@media screen and (max-width: 618px){
-    .footer{
-        margin: 73px 56px 24px 20px;
-    }
-}
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 716px){
     .footer{
         flex-direction: column;
-        margin: 64px 118px 24px 16px;
-        max-width: 186px;
+        margin: 64px auto 24px 16px;
     }
-
 }
+
