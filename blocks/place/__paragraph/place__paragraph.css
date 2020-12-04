@@ -7,7 +7,7 @@
 
 }
 
-.place__paragraph:nth-child(1) {
+.place__paragraph:nth-child(n) {
     margin-bottom: 1.3rem;
 }
 
@@ -17,12 +17,6 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .place__paragraph:nth-child(1) {
-        margin-bottom: 2rem;
-        font-size: 16px;
-    }
-}
 
 
 
