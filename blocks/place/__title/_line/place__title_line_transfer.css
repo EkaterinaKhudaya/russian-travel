@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .place__title_line_transfer {
+        word-spacing: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .place__title_line_transfer {
+        word-spacing: normal;
+    }
+}
+
