@@ -14,7 +14,7 @@
     margin-top: 92px;
 }
 .place:last-of-type {
-    margin-top: 89px;
+    margin-bottom: 89px;
 }
 
 @media screen and (max-width: 1024px) {
